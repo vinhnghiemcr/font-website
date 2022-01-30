@@ -1,0 +1,42 @@
+html {
+  background-color: rgb(220, 189, 111);
+}
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.header-top {
+  width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top img {
+  width: 200px;
+  height: auto;
+}
+.header button {
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+.header-right img {
+  width: 300px;
+}
