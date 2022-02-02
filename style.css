@@ -12,6 +12,7 @@ body {
   flex-wrap: wrap;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 36px;
+  flex-grow: 1;
 }
 ul {
   list-style-type: none;
@@ -70,36 +71,44 @@ a:hover {
 
 /*style for info section*/
 .info {
+  display: flex;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 36px;
+  flex-direction: column;
+  flex-grow: 1;
 }
 .info-top {
+  display: flex;
   font-size: 32px;
   font-weight: bold;
-  text-align: center;
+  justify-content: center;
 }
 .info-bottom {
+  flex-shrink: 1;
   display: flex;
   justify-content: center;
   gap: 16px;
   padding: 16px;
   text-align: center;
 }
-.info-bottom-img {
+.info-bottom div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 16px;
 }
 .info-bottom img {
+  display: flex;
   width: 200px;
   height: 100px;
+  flex: 1;
 }
 
 /*Style for qoute section*/
 .quote {
   padding: 32px;
   text-align: center;
+  flex-grow: 1;
 }
 .quote strong {
   display: flex;
@@ -112,6 +121,7 @@ a:hover {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 32px;
+  flex-grow: 1;
 }
 .action div {
   color: white;
@@ -139,4 +149,5 @@ a:hover {
   justify-content: center;
   align-items: center;
   background-color: rgba(10, 10, 10, 0.5);
+  color: #fff;
 }
