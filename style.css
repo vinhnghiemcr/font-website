@@ -11,6 +11,7 @@ body {
 .header {
   flex-wrap: wrap;
   background-color: rgba(0, 0, 0, 0.5);
+  padding: 36px;
 }
 ul {
   list-style-type: none;
@@ -45,6 +46,7 @@ a:hover {
   display: flex;
   align-items: center;
   padding: 16px;
+  margin-top: -30px;
 }
 
 .header-bottom button {
@@ -69,6 +71,7 @@ a:hover {
 /*style for info section*/
 .info {
   background-color: rgba(0, 0, 0, 0.3);
+  padding: 36px;
 }
 .info-top {
   font-size: 32px;
@@ -127,4 +130,13 @@ a:hover {
 }
 .action button:hover {
   background-color: rgb(50, 235, 13);
+}
+
+/*Style for footer */
+.footer {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 10, 10, 0.5);
 }
